@@ -1,0 +1,32 @@
+name: amia_messaging
+description: Amia messaging UI adapted from the Pixso design.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.5
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+  shared_preferences: ^2.5.6
+  qr_flutter: ^4.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: Font/Poppins-Regular.ttf
+        - asset: Font/Poppins-Medium.ttf
+          weight: 500
+        - asset: Font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: Font/Poppins-Bold.ttf
+          weight: 700
